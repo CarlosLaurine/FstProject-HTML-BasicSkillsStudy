@@ -1,0 +1,241 @@
+	<!--DOCTYPE-->
+<!DOCTYPE html>
+
+
+<html>
+
+    <!--HEAD - SETOR DE TAGS "INVISÍVEIS" NO CORPO DO SITE-->
+<head>
+	<!--TÍTULO-->
+	<title>
+		Meu Site
+	</title>
+	<!--PADRÃO UTF-->
+	<meta charset = "utf-8"/>
+</head>
+	
+	<!--BODY- SETOR DE TAGS "VISÍVEIS" NO CORPO DO SITE-->
+<body>
+
+	<!--MENU BÁSICO DE NAVEGAÇÃO-->
+
+	<!--HYPERLINK REFERENCE (LINK)-->
+	<a href="">
+			Home
+		</a>
+    ||
+		<a href="Contato.html">
+			Contato
+		</a>
+
+		<!--HEADER NA CONFIGURAÇÃO 2-->
+	<h2>A empresa</h2>
+		<!--PARÁGRAFO-->
+	<p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam non dolor accumsan, scelerisque tellus sit amet, interdum sem. Aliquam sit amet nisl at diam vehicula volutpat. Ut eu sagittis mi, interdum consequat velit. Nullam urna dui, accumsan ac nulla ut, molestie pretium elit.</p>
+	    <!--DIVISÓRIA (LINHA) HORIZONTAL-->
+	<hr>
+
+	<h2>Vantagens de ser cliente</h2>
+
+		<!--ORDERED LIST + INLINE STYLE-->
+	<ol type="I">
+
+		<!--LIST ITEMS COMPONENTES DA ORDERED LIST-->
+		<li>Atendimento<strong>rápido</strong></li>
+		<li>Preços especiais</li>
+		<li>Muitas cidades</li>
+
+	</ol>
+	<hr>
+	<h2>O que os clientes estão dizendo:</h2>
+
+	<!--TEXT STYLE EM ITÁLICO-->
+	<em>"Gostei demais do atendimento, foi muito rápido e com certeza irei voltar!"</em>
+	<br>
+	<!--TEXT STYLE EM NEGRITO-->
+	<strong>Maria Almeida</strong>
+	<hr>
+	<h2>Mapa do site</h2>
+
+		<!--UNORDERED LIST + INLINE STYLE PARA MARCADOR-->
+
+	<ul type = "circle">
+
+		<!--LIST ITEMS COMPONENTES DA UNORDERED LIST-->
+
+		<li>Home</li>
+		<li>Quem somos</li>
+		<li>Contato</li>
+	</ul>
+
+	<!--> TESTE DE COMENTÁRIO EM HTML </-->
+
+	<h1>Link:</h1>
+	<hr><hr>
+	<a href="Contato.html">
+		
+		<strong><em>Clique Aqui</em></strong>
+
+	</a>
+	<hr><hr>
+
+		<!--IMAGEM JPG IMPORTADA DA PASTA + INLINE STYLE PARA DEFINIR SUAS DIMENSÕES-->
+		
+		<img src="Imagens/Kotoro.jpg" width ="800" height="600">
+
+	<br><br>
+
+	<h1>Tabela de Produtos:</h1>
+
+	<!--TABELA + INLINE STYLE PARA BORDA E LARGURA-->
+
+
+	<table border = "2" width="50%">
+		
+		<!--TABLE ROWS-->
+
+		<tr>
+
+			<!--TABLE HEADERS-->
+
+			<th>Código</th>
+			<th>Produto</th>
+			<th>Preço</th>
+
+		</tr>
+
+		<tr>
+			
+			<!--TABLE DATA-->
+
+			<td>001</td>
+			<td><b>Computador</b></td>
+			<td>R$2500,99</td>
+
+		</tr>
+
+		<tr>
+			
+			<td>002</td>
+			<td> <b>Tablet</b> : <br><br> <img src="Imagens/Tablet.jpg"></td>
+			<td>R$99,99</td>
+
+		</tr>
+
+		<tr>
+			
+			<td>003</td>
+			<td><b>Smartphone:</b><br> <p><a href="https://www.amazon.com.br/Smartphone-Redmi-Note-128GB-Preto/dp/B07Z5YF87N/ref=asc_df_B07Z5YF87N/?tag=googleshopp00-20&linkCode=df0&hvadid=379773236150&hvpos=&hvnetw=g&hvrand=1000097685995893614&hvpone=&hvptwo=&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=1001533&hvtargid=pla-833765816539&psc=1">
+				
+				Smartphone - Link para Comprar
+
+			</a></p></td>
+			<td>R$899,99</td>
+
+		</tr>
+
+		<tr>
+				<!--INLINE STYLE PARA DEFINIR A ABRANGÊNCIA DO ROWSPAN-->
+
+			
+				<td rowspan="3">Desconto</td>
+
+				<!--INLINE STYLE PARA DEFINIR A ABRANGÊNCIA DO COLSPAN-->
+				
+				<td colspan="2"> Cupom 1 - R$10,00</td>
+
+
+	</tr>
+
+				<tr>
+				<td colspan="2"> Cupom 2 - R$12,50</td>
+				</tr>
+				<tr>
+				<td colspan="2"> Cupom 3 - R$15,00</td>
+				</tr>
+
+
+
+	</table>
+
+	<strong>Login</strong> <br>
+
+	<!--FORMULÁRIO-->
+
+	<form>
+		<!--INPUT CAIXA DE USUARIO + INLINE STYLE-->
+
+		Login <br>
+		<input type="text" name="login"> <br>
+		Senha <br>
+
+		<!--INPUT CAIXA DE SENHA + INLINE STYLE PARA GARANTIR O MODO SEGURANÇA NA DIGITAÇÃO-->
+
+		<input type="password" name="senha"><br>
+
+		<!--BUTTON PARA SUBMIT-->
+
+		<input type="Submit" value ="Submit">
+	</form>
+
+
+	<h2>Cadastre-se</h2>
+	<br><br>
+	<form>
+		
+		Login:<br><br>
+		<input type="text" name="login"> <br><br>
+
+	<!--INPUT DE SELEÇÃO + INLINE STYLE PARA DEFINIR OS MARCADORES-->
+
+		Sexo<br><br>
+		<input type="radio" name="sexo" value="M">
+		Maculino <br>
+		<input type="radio" name="sexo" value="F">
+		Feminino <br>
+		<input type="radio" name="sexo" value="D">
+		Outro <br><br>
+
+	<!--INPUT DE SELEÇÃO VARIADA (CHECKBOX)-->
+
+		Interesses<br><br>
+		<input type="checkbox" name="futebol"> Futebol <br>
+		<input type="checkbox" name="cursos"> Cursos <br>
+		<input type="checkbox" name="moda"> Moda <br>
+
+	<!--MODO DE SELEÇÃO EM LISTA-->
+
+		Estado<br><br>
+		<select name="estado">
+
+			<!--OPTIONS PRÉ-DEFINIDAS DA LISTA DE SELEÇÃO-->
+
+
+			<option value = "sp" >SP</option>
+			
+			<option value = "mg" >MG</option>
+
+			<option value = "rj" >RJ</option>
+
+			<option value = "rs">RS</option>
+		
+		</select><br><br>
+
+
+		Observações:<br><br>
+
+		<!--AREA PARA INSERÇÃO DE TEXTOS-->
+
+		<textarea></textarea>
+		<br><br>
+
+		<!--BUTTON DE SUBMISSÃO DO FORMULÁRIO-->
+
+
+		<input type="Submit" value="Concluir Cadastro">
+
+
+	</form>
+
+</body>
+</html>
